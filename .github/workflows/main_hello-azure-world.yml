@@ -16,6 +16,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: hello-azure-world-h8cecqarh2hdc2gj  
+          app-name: hello-azure-world-h8cecqarh2hdc2gj.centralindia-01 
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
